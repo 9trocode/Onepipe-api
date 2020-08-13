@@ -1,15 +1,13 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Node.js CI
+name: Buld & Test
 
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  release:
-    types: [created]
 
 
 jobs:
@@ -31,12 +29,3 @@ jobs:
     - run: npm run build --if-present
     - run: npm run lint
     - run: npm run test:coverage
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-        registry-url: 'https://registry.npmjs.org'
-    - run: npm install
-    - run: npm publish
-      if: github.event == 'release'
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
