@@ -36,7 +36,6 @@
     "Api",
     "Onepipe Api"
   ],
-	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": "9trocode",
   "license": "MIT",
   "devDependencies": {
