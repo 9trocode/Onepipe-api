@@ -52,12 +52,7 @@ jobs:
         with:
           node-version: 10
       - run: npm install
-      - run: npm test
-      - uses: Reedyuk/NPM-Version@1.0.1
+      - run: npm release
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
-
-      - if: steps.publish.type != 'none'
-        run: |
-          echo "Version changed: ${{ steps.publish.outputs.old-version }} => ${{ steps.publish.outputs.version }}"
