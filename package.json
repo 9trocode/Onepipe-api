@@ -1,7 +1,7 @@
 {
   "name": "onepipe-api",
-  "version": "0.0.2",
-  "description": "[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/leojaimesson/typescript-package-boilerplate/blob/master/LICENSE.md) [![nodejs badge](https://img.shields.io/badge/type-nodejs-green.svg)](https://nodejs.org/en/) [![typescript badge](https://img.shields.io/badge/type-typescript-blue.svg)](https://www.typescriptlang.org/)",
+  "version": "0.0.14",
+  "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
