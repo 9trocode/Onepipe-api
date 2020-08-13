@@ -9,7 +9,7 @@ name: Build, Test, Release and maybe Publish
 jobs:
   test:
     name: Build & Test
-    runs-on: ubuntu-latestci
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [12.x, 14.x]
