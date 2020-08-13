@@ -1,7 +1,7 @@
 {
   "name": "onepipe-api",
   "version": "0.0.1",
-  "description": "",
+  "description": "[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/leojaimesson/typescript-package-boilerplate/blob/master/LICENSE.md) [![nodejs badge](https://img.shields.io/badge/type-nodejs-green.svg)](https://nodejs.org/en/) [![typescript badge](https://img.shields.io/badge/type-typescript-blue.svg)](https://www.typescriptlang.org/)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -32,10 +32,11 @@
     "instrument": true
   },
   "keywords": [
-		"Onepipe",
-		"Api",
-		"Onepipe Api"
-	],
+    "Onepipe",
+    "Api",
+    "Onepipe Api"
+  ],
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": "9trocode",
   "license": "MIT",
   "devDependencies": {
@@ -54,5 +55,14 @@
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
   },
-  "contributors": []
+  "contributors": [],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9trocode/Onepipe-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/9trocode/Onepipe-api/issues"
+  },
+  "homepage": "https://github.com/9trocode/Onepipe-api#readme"
 }

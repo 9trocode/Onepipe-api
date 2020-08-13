@@ -28,3 +28,5 @@ jobs:
     - run: npm run build --if-present
     - run: npm run lint
     - run: npm run test:coverage
+    - run: npm login --registry=https://npm.pkg.github.com/
+    - run: npm publish
