@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { expect } from 'chai'
-import { OnePipeSdk } from '../src'
+import OnePipeSdk from '../src'
 
 describe('calc tests', () => {
 	describe('sum()', () => {
