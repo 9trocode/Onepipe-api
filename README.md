@@ -8,8 +8,6 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/9trocode/onepipe-api)](https://repl.it/github/9trocode/onepipe-api)
 ![Node.js CI](https://github.com/9trocode/onepipe-api/workflows/Node.js%20CI/badge.svg?branch=master)
-![Node.js CI](https://github.com/9trocode/onepipe-api/workflows/Node.js%20CI/badge.svg?branch=master&event=issues)
-![Node.js CI](https://github.com/9trocode/onepipe-api/workflows/Node.js%20CI/badge.svg?branch=master&event=release)
 
 [Onepipe Api](https://www.npmjs.com/package/onepipe-api) allows world-wide
 storage and retrieval of any amount of data at any time. You can use `Google
