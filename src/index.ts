@@ -1,4 +1,12 @@
-export const sum = (a: number, b: number): number => a + b
-export const sub = (a: number, b: number): number => a - b
-export const div = (a: number, b: number): number => a / b
-export const mult = (a: number, b: number): number => a * b
+import V2 from './v2'
+
+interface OnePipeSdk {
+	v1: any
+	v2: any
+}
+
+export const OnePipeSdk = (key: string, client: string): OnePipeSdk => {
+	this.key = key
+	this.client = client
+	return { v1: V2, v2: V2 }
+}
