@@ -9,11 +9,31 @@
 [![Run on Repl.it](https://repl.it/badge/github/9trocode/onepipe-api)](https://repl.it/github/9trocode/onepipe-api)
 ![Node.js CI](https://github.com/9trocode/onepipe-api/workflows/Node.js%20CI/badge.svg?branch=master)
 
-[Onepipe Api](https://www.npmjs.com/package/onepipe-api) allows world-wide
-storage and retrieval of any amount of data at any time. You can use `Google
-Cloud Storage`, `AWS S3 Bucket` for a range of scenarios including serving website content,
-storing data for archival and disaster recovery, or distributing large data
-objects to users via direct download. Storage Pipe Manager is a Pipe Factory that allow you easily switch between `Google CLoud` `AWS S3`, `CLOUDINARY` and `FS` without breaking anything or any extra configurations
+
+## OnePipe v1 - Documentation
+
+This suite of APIs provides access to an array of payment-related services like card charging, airtime, bill payment, instant loans and KYC lookup services. Some of these services come from multiple providers like Interswitch, Flutterwave and Paystack, but OnePipe wraps around them an abstraction layer with one major goal: To provide a consistent interface to integrators regardless of underlying service provider. That way, you can switch between providers at any time, based on quality of service, business justification, etc. without starting a new integration project or changing your systems in any way.
+
+## Want to try it quickly?
+
+Fast try
+
+Click the run in postman button to import the collection.
+Base url: https://409a9dcf-73e5-41bb-aa2e-ba6c286173a3.mock.pstmn.io
+Try the various endpoints against the mock server
+
+
+## Actual transactions
+
+Send an email to integration @ onepipe.io
+We would contact you with a neatly prepped postman collection and instructions to follow
+Then grant you temporary access to a public sandbox
+The principles behind OnePipe
+Ability to add multiple providers for the same service
+A standard unified API interface encapsulating all feature set available across providers
+Ability to setup as many apps as possible and determine which provider should fulfill the service for each app.
+Planned: Rules based provider selection.
+
 
 
 ## Versioning
